@@ -1,0 +1,38 @@
+{
+    "name": "pkboom/laravel-install-packages",
+    "description": "",
+    "keywords": [
+        "pkboom",
+        "laravel-install-packages"
+    ],
+    "homepage": "https://github.com/pkboom/laravel-install-packages",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keunbae Park",
+            "email": "ppotpo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.2",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pkboom\\InstallPackages\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pkboom\\InstallPackages\\InstallPackagesServiceProvider"
+            ]
+        }
+    }
+}
