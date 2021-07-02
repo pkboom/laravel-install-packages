@@ -1,30 +1,29 @@
-# Very short description of the package
-
-[![Latest Stable Version](https://poser.pugx.org/pkboom/laravel-install-packages/v)](//packagist.org/packages/pkboom/laravel-install-packages)
-[![Total Downloads](https://poser.pugx.org/pkboom/laravel-install-packages/downloads)](//packagist.org/packages/pkboom/laravel-install-packages)
-
-This is where your description should go. Try and limit it to a paragraph or two.
-<img src="/images/demo.png" width="800"  title="demo">
+# Install packages in an easy way
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require pkboom/laravel-install-packages
+composer require pkboom/laravel-install-packages --dev
 ```
 
-## Usage
+## Publishing the config file
 
-```php
-$skeleton = new pkboom\InstallPackages();
-echo $skeleton->echoPhrase('Hello, pkboom!');
-```
-
-## Requirements
-
-### Testing
+Publish the config file and add packages you want to add to your applications.
 
 ```bash
-composer test
+php artisan vendor:publish --provider="Pkboom\InstallPackages"
+```
+
+## Install default packages
+
+```bash
+php artisan install:packages
+```
+
+## Install optional packages
+
+```bash
+php artisan install:packages --optional
 ```
