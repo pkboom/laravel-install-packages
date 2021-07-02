@@ -1,13 +1,9 @@
 <?php
 
-// Reference: http://cs.sensiolabs.org/
-
-return PhpCsFixer\Config::create()
+return (new PhpCsFixer\Config())
     ->setUsingCache(false)
     ->setRiskyAllowed(true)
     ->setRules([
-        '@PHP70Migration' => true,
-        '@PHP71Migration' => true,
         '@PSR2' => true,
         '@Symfony' => true,
         'array_syntax' => ['syntax' => 'short'],
@@ -16,4 +12,6 @@ return PhpCsFixer\Config::create()
         'semicolon_after_instruction' => false,
         'strict_comparison' => true,
         'yoda_style' => false,
+        'allow_mixed' => true, // somehow @Symfony won't work
+        'allow_unused_params' => true, // somehow @Symfony won't work
     ]);
