@@ -12,6 +12,4 @@ return (new PhpCsFixer\Config())
         'semicolon_after_instruction' => false,
         'strict_comparison' => true,
         'yoda_style' => false,
-        'allow_mixed' => true, // somehow @Symfony won't work
-        'allow_unused_params' => true, // somehow @Symfony won't work
     ]);
