@@ -1,11 +1,11 @@
 {
-    "name": "pkboom/laravel-install-packages",
+    "name": "pkboom/laravel-package-installer",
     "description": "",
     "keywords": [
         "pkboom",
-        "laravel-install-packages"
+        "laravel-package-installer"
     ],
-    "homepage": "https://github.com/pkboom/laravel-install-packages",
+    "homepage": "https://github.com/pkboom/laravel-package-installer",
     "license": "MIT",
     "authors": [
         {
