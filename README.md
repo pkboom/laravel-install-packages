@@ -13,7 +13,7 @@ composer require pkboom/laravel-install-packages --dev
 Publish the config file and add packages you want to add to your applications.
 
 ```bash
-php artisan vendor:publish --provider="Pkboom\InstallPackages"
+php artisan vendor:publish --provider="Pkboom\InstallPackages\InstallPackagesServiceProvider"
 ```
 
 ## Install default packages
