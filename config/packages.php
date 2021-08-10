@@ -9,5 +9,6 @@ return [
     'optional' => [
         'spatie/data-transfer-object',
         'spatie/guzzle-rate-limiter-middleware',
+        'spatie/laravel-validation-rules',
     ],
 ];
