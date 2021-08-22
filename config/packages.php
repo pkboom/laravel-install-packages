@@ -3,7 +3,7 @@
 return [
     'default' => [
         'barryvdh/laravel-debugbar --dev',
-        'pkboom/laravel-dump --dev',
+        'pkboom/laravel-dump-tinker --dev',
     ],
 
     'optional' => [
