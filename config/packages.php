@@ -4,7 +4,7 @@ return [
     'default' => [
         'barryvdh/laravel-debugbar --dev',
         'pkboom/laravel-dump-tinker --dev',
-        'andreaselia/laravel-api-to-postman',
+        'andreaselia/laravel-api-to-postman --dev',
     ],
 
     'optional' => [
