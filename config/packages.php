@@ -11,5 +11,6 @@ return [
         'spatie/guzzle-rate-limiter-middleware',
         'spatie/laravel-validation-rules',
         'andreaselia/laravel-api-to-postman --dev',
+        'spatie/laravel-mail-preview --dev',
     ],
 ];
