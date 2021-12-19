@@ -1,5 +1,3 @@
-vendor/
-node_modules/
-.idea
-.vscode
 composer.lock
+vendor
+.phpunit.result.cache
