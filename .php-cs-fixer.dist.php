@@ -4,7 +4,6 @@ return (new PhpCsFixer\Config())
     ->setUsingCache(false)
     ->setRiskyAllowed(true)
     ->setRules([
-        '@PSR2' => true,
         '@Symfony' => true,
         'array_syntax' => ['syntax' => 'short'],
         'increment_style' => ['style' => 'post'],
@@ -12,4 +11,7 @@ return (new PhpCsFixer\Config())
         'semicolon_after_instruction' => false,
         'strict_comparison' => true,
         'yoda_style' => false,
+        'phpdoc_separation' => false,
+        'no_superfluous_phpdoc_tags' => false,
+        'php_unit_method_casing' => ['case' => 'snake_case'],
     ]);
