@@ -12,5 +12,6 @@ return [
         'spatie/laravel-validation-rules',
         'andreaselia/laravel-api-to-postman --dev',
         'spatie/laravel-mail-preview --dev',
+        'laravel-shift/blueprint' --dev,
     ],
 ];
